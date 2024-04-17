@@ -2,7 +2,7 @@
 
 #### Author: Martyna Pitera
 
-CHECK THIS OUT ON DATABRICKS --> <https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/173542347700804/2929076465318146/6176203754563543/latest.html>
+## CHECK THIS OUT ON DATABRICKS --> <https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/173542347700804/2929076465318146/6176203754563543/latest.html>
 
 The project was carried out using Apache Spark on Databricks, utilizing
 Python and SQL.
@@ -11,7 +11,7 @@ The goal of this project is to analyze the Body Fat Dataset and generate
 predictive insights. 
 (dataset - <https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset>)
 
-This dataset contains of:
+#### The dataset contains of:
 
 1.  Density determined from underwater weighing
 2.  Percent body fat from Siri\'s (1956) equation
@@ -29,7 +29,7 @@ This dataset contains of:
 14. Forearm circumference (cm)
 15. Wrist circumference (cm)
  
-The project involved:
+#### The project involved:
 
 1.  Loading and preprocessing of the dataset
 2.  Statistical analysis of the data
