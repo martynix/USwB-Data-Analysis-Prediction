@@ -1,40 +1,3 @@
----
-jupyter:
-  application/vnd.databricks.v1+notebook:
-    dashboards:
-    - elements:
-      - dashboardResultIndex: 0
-        elementNUID: 72c0f523-68ff-4448-b917-f4ef11837f36
-        elementType: command
-        guid: 2732103e-8917-44f0-8d89-400dfdbf8967
-        position:
-          height: 6
-          width: 12
-          x: 0
-          y: 0
-      globalVars: {}
-      layoutOption:
-        grid: true
-        stack: true
-      nuid: 67e14bfd-cd22-422c-9dca-6d2e06d060e9
-      origId: 2929076465318164
-      title: Untitled
-      version: DashboardViewV1
-      width: 1024
-    language: python
-    notebookMetadata:
-      mostRecentlyExecutedCommandWithImplicitDF:
-        commandId: 551751544815814
-        dataframes:
-        - \_sqldf
-      pythonIndentUnit: 4
-    notebookName: USB_project
-    widgets: {}
-  nbformat: 4
-  nbformat_minor: 0
----
-
-::: {.cell .markdown application/vnd.databricks.v1+cell="{\"cellMetadata\":{\"byteLimit\":2048000,\"rowLimit\":10000},\"inputWidgets\":{},\"nuid\":\"96816ed7-b08a-4ca3-abb9-f99880c3535d\",\"showTitle\":false,\"title\":\"\"}"}
 ## USwB - Data Analysis & Prediction with Apache Spark, Databricks, MLLib {#uswb---data-analysis--prediction-with-apache-spark-databricks-mllib}
 
 #### Author: Martyna Pitera
@@ -65,11 +28,7 @@ This dataset contains of:
 15. Wrist circumference (cm)
 :::
 
-::: {.cell .markdown application/vnd.databricks.v1+cell="{\"cellMetadata\":{},\"inputWidgets\":{},\"nuid\":\"aea64363-dc80-4f94-86df-5322828dbd8c\",\"showTitle\":false,\"title\":\"\"}"}
 #### Loading the data into dataframe
-:::
-
-::: {.cell .code execution_count="0" application/vnd.databricks.v1+cell="{\"cellMetadata\":{\"byteLimit\":2048000,\"rowLimit\":10000},\"inputWidgets\":{},\"nuid\":\"579becf5-1a43-4e35-84aa-62cd7f9a675f\",\"showTitle\":false,\"title\":\"\"}"}
 ``` python
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DoubleType
@@ -125,11 +84,7 @@ df.show()
     |  1.061|   16.5| 33|211.75|  73.5|40.0|106.2|  100.5|109.0| 65.8|40.6| 24.0|  37.1|   30.1| 18.2|
     +-------+-------+---+------+------+----+-----+-------+-----+-----+----+-----+------+-------+-----+
     only showing top 20 rows
-:::
-:::
 
-::: {.cell .code execution_count="0" application/vnd.databricks.v1+cell="{\"cellMetadata\":{\"byteLimit\":2048000,\"rowLimit\":10000},\"inputWidgets\":{},\"nuid\":\"bd82bb99-1479-4d5c-be10-8c36df0f1d44\",\"showTitle\":false,\"title\":\"\"}"}
-``` python
 # Number of rows in dataframe
 df.count()
 ```
