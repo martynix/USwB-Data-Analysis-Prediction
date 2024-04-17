@@ -1,4 +1,4 @@
-## USwB - Data Analysis & Prediction with Apache Spark, Databricks, MLLib {#uswb---data-analysis--prediction-with-apache-spark-databricks-mllib}
+## USwB - Data Analysis & Prediction with Apache Spark, Databricks, MLLib
 
 #### Author: Martyna Pitera
 
