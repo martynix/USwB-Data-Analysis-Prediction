@@ -2,7 +2,7 @@
 
 #### Author: Martyna Pitera
 
-CHECK THIS OUT ON DATABRICKS -----------------------> <https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/173542347700804/2929076465318146/6176203754563543/latest.html>
+CHECK THIS OUT ON DATABRICKS --> <https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/173542347700804/2929076465318146/6176203754563543/latest.html>
 
 The project was carried out using Apache Spark on Databricks, utilizing
 Python and SQL.
